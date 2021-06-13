@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
+
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body, ul, li, h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+body {
+  background-color: #fafafa;
+}
+.main-container{
+  position:relative;
+  width: 100%;
+  height: 52.6316vw;
+  background-color: white;
+}
+
+.background{
+  margin-left:2.6316vw;
+  text-align: center;
+  font-family: 'Racing Sans One', cursive;
+  text-shadow: 5px 5px 10px  rgb(196, 196, 196);
+  font-size: 3.9474vw;
+  color: #ff96ad;
+  line-height: 49.3421vw;
+}
+.background {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.nav{
+  position:fixed;
+  display: flex;
+}
+.nav a{
+  color: black;
+}
+.back{
+  float: left;
+  margin-top: 1.9481vw;
+  font-size: 1.0417vw;
+  font-weight: bold;
+  z-index: 999;
+}
+.feedback{
+  position: fixed;
+  margin-left: 85.2778vw;
+  margin-top: 1.9481vw;
+  font-size: 1.0417vw;
+  font-weight: bold;
+  z-index: 999;
+}
+.svg{
+  margin-top: 1.9481vw;
+  margin-left: 6.4935vw;
+}
+
+.content-container{ 
+  width: 71.9737vw;
+  margin: auto;
+}
+.titlebox{
+  width:55.9211vw;
+  margin-top: 7.8947vw;
+  color: black;
+}
+
+.title1{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+
+.title2{
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+  line-height: 5.2632vw;
+}
+.detail{
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top:3.9474vw;
+  line-height: 2.3026vw;
+  font-size: 1.1184vw;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+}
+.detail2-1{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(77, 77, 77);
+  font-size: 0.9868vw;
+  font-weight: bold;
+  margin-top: 6.5789vw;
+}
+.detail2{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(77, 77, 77);
+  font-size: 0.9211vw;
+  font-weight: normal;
+  line-height: 1.6447vw;
+}
+.detail3-1{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(77, 77, 77);
+  font-size: 0.9868vw;
+  font-weight: bold;
+  margin-top:0.6579vw;
+}
+.detail3{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(77, 77, 77);
+  font-size: 0.9211vw;
+  font-weight: normal;
+  line-height: 1.6447vw;
+}
+.subbox{
+  float:right;
+  transform: translateY(-30.9211vw);
+}
+.member{font-family: 'Noto Sans KR', sans-serif;
+  color: black;
+  margin-top: 3.2895vw;
+}
+.date{
+  font-family: 'Noto Sans KR', sans-serif;
+
+  color: black;
+  margin-top: 3.2895vw;
+}
+.lag{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+}
+.lagbox{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: black;
+
+}
+.mem{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+}
+
+.codebtn{
+  background-color: #ff96ad;
+  color: white;
+  border-radius: 5px;
+  margin-top: 1.3158vw;
+  width: 7.8947vw;
+  height: 1.9737vw;
+  border: 0.0000vw;
+}
+
+/* 이미지들어가는페이지시작 */
+
+.screen{
+  margin-top: 7.8947vw;
+  width: 71.9737vw;
+  height: 39.4737vw;
+}
+.screen-title{
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+.screen-title2{
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+}
+
+
+
+/* 이미지 부과설명 페이지 */
+.etc{
+  margin-top:61.2105vw;
+  width: 71.9737vw;
+}
+.etc-title{
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+.etc-title2{
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+}
+.projectbox{
+  width: 71.9737vw;
+  margin-top: 1.9737vw;
+}
+
+a#MOVE_TOP_BTN {
+  color: black;
+  position: fixed;
+  right: 2%;
+  bottom: 3.2895vw;
+  z-index: 999;
+}
+
+#feedback1{
+  margin-top: 7.8947vw;
+  width: 71.9737vw;
+}
+.feedback-title{
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+.feedback-title2{
+  color:black;
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+}
+
+#feedback2{
+  margin-top: 7.8947vw;
+  width: 71.9737vw;
+  height: 600px;
+  margin-bottom: 13.1579vw;
+}
+.feedback2-title{
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+.feedback2-title2{
+  color:black;
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+}
+.feedbackbox1 { 
+  width: 71.9737vw;
+  height: 19.7368vw;
+  overflow: scroll; 
+}
+.feedback22{
+  font-weight: normal;
+  margin-top: 7.8947vw;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+
+img {
+  vertical-align: middle;
+}
+
+
+.containe3 {
+  transform: translateY(-9.8684vw);
+  width: 71.9737vw;
+  height: 39.4737vw;
+  position: relative;
+}
+
+.image{
+  box-shadow: 0.3289vw 0.3289vw 1.3158vw  grey;
+  width: 71.9737vw;
+  height: 59.2105vw;
+}
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 110%;
+  width: auto;
+  padding: 1.0526vw;
+  
+  color: black;
+  font-weight: bold;
+  font-size: 1.3158vw;
+  border-radius: 0 0.1974vw 0.1974vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0.1974vw 0 0 0.1974vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 0.7895vw;
+  padding: 0.5263vw 0.7895vw;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #ff96ad;
+  padding: 0.1316vw 1.0526vw;
+  
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 21.0%;
+}
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.js-toDobox{
+  margin-top: 1.9737vw;
+  width: 70.3947vw;
+  height: 1.9737vw;
+  font-size: 0.9868vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 0.1974vw;
+  border: 0.0658vw solid gray;
+}
+.js-toDoList{
+  margin-top: 0.6579vw;
+  line-height: 2.6316vw;
+  font-family: 'S-CoreDream-3Light';
+  font-size: 0.8553vw;
+}
+
+.feedback-sub{
+  display: flex;
+}
+
+.sub1{
+  position:relative;
+  margin-left: 13.1579vw;
+  font-size: 1.1842vw;
+  margin-top:5.9211vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: normal;
+  color: rgb(66, 66, 66);
+}
+.sub2{
+  margin-right: 4.8684vw;
+  margin-top:5.9211vw;
+  font-size: 1.7105vw;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+.btn-delete{
+  margin-top: 5.9211vw;
+  font-size: 0.9868vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: rgb(133, 132, 132);
+  font-weight: lighter;
+}
+.toDobox{
+  overflow:scroll;
+ 
+  height: 19.7368vw;
+  width: 71.9737vw;
+}
+.seebox{
+  margin-top: 3.9474vw;
+  margin-bottom: 8.5526vw;
+}
+.see1{
+  text-decoration: overline #ff96ad;
+}
+.see2{
+  text-decoration: overline #ff96ad;
+}

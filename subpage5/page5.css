@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
+
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body, ul, li, h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+body {
+  background-color: #fafafa;
+}
+.main-container{
+  position:relative;
+  width: 100%;
+  height: 52.6316vw;
+  background-color: #6EDBD9;
+}
+
+.background{
+  margin-left:2.6316vw;
+  text-align: center;
+  font-family: 'Racing Sans One', cursive;
+  text-shadow: 5px 5px 10px  #3d7978;
+  font-size: 3.9474vw;
+  color: #022e57;
+  line-height: 49.3421vw;
+}
+.background {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.nav{
+  position:fixed;
+  display: flex;
+}
+.nav a{
+  color: black;
+}
+.back{
+  float: left;
+  margin-top: 1.9481vw;
+  font-size: 1.0417vw;
+  font-weight: bold;
+  z-index: 999;
+}
+.feedback{
+  position: fixed;
+  margin-left: 85.2778vw;
+  margin-top: 1.9481vw;
+  font-size: 1.0417vw;
+  font-weight: bold;
+  z-index: 999;
+}
+.svg{
+  margin-top: 1.9481vw;
+  margin-left: 6.4935vw;
+}
+
+.content-container{ 
+  width: 71.9737vw;
+  margin: auto;
+}
+.titlebox{
+  width:55.9211vw;
+  margin-top: 7.8947vw;
+  color: black;
+}
+
+.title1{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+
+.title2{
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+  line-height: 5.2632vw;
+}
+.detail{
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top:3.9474vw;
+  line-height: 2.3026vw;
+  font-size: 1.1184vw;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+}
+.detail2-1{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(77, 77, 77);
+  font-size: 0.9868vw;
+  font-weight: bold;
+  margin-top: 6.5789vw;
+}
+.detail2{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(77, 77, 77);
+  font-size: 0.9211vw;
+  font-weight: normal;
+  line-height: 1.6447vw;
+}
+.detail3-1{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(77, 77, 77);
+  font-size: 0.9868vw;
+  font-weight: bold;
+  margin-top:0.6579vw;
+}
+.detail3{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:rgb(77, 77, 77);
+  font-size: 0.9211vw;
+  font-weight: normal;
+  line-height: 1.6447vw;
+}
+.subbox{
+  float:right;
+  transform: translateY(-30.9211vw);
+}
+.member{font-family: 'Noto Sans KR', sans-serif;
+  color: black;
+  margin-top: 3.2895vw;
+}
+.date{
+  font-family: 'Noto Sans KR', sans-serif;
+
+  color: black;
+  margin-top: 3.2895vw;
+}
+.lag{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+}
+.lagbox{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: black;
+
+}
+.mem{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+}
+
+.codebtn{
+  background-color: #6EDBD9;
+  color: black;
+  border-radius: 5px;
+  margin-top: 1.3158vw;
+  width: 7.8947vw;
+  height: 1.9737vw;
+  border: 0.0000vw;
+}
+
+/* 이미지들어가는페이지시작 */
+
+.screen{
+  margin-top: 7.8947vw;
+  width: 71.9737vw;
+  height: 39.4737vw;
+  margin-bottom: 72.3684vw;
+}
+.screen-title{
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+.screen-title2{
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+}
+
+
+
+/* 이미지 부과설명 페이지 */
+.etc{
+  margin-top: 59.2105vw;
+  width: 71.9737vw;
+}
+.etc-title{
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+.etc-title2{
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+}
+.projectbox{
+  width: 71.9737vw;
+  margin-top: 1.9737vw;
+}
+
+a#MOVE_TOP_BTN {
+  color: black;
+  position: fixed;
+  right: 2%;
+  bottom: 3.2895vw;
+  z-index: 999;
+}
+
+#feedbackbox1{
+  margin-top: 30.8947vw;
+  width: 71.9737vw;
+}
+.feedback-title{
+  font-weight: bold;
+  color: black;
+  font-size: 0.9868vw;
+}
+.feedback-title2{
+  color:black;
+  font-family: 'GmarketSansBold';
+  margin-top: 20px;
+  font-size:3.9474vw;
+}
+
+#feedback2{
+  margin-top: 7.8947vw;
+  width: 71.9737vw;
+  height: 600px;
+  margin-bottom: 13.1579vw;
+}
+.feedback2-title{
+  font-weight: bold;
+  font-size: 0.9868vw;
+}
+.feedback2-title2{
+  color:black;
+  font-family: 'GmarketSansBold';
+  margin-top: 0.6579vw;
+  font-size:3.9474vw;
+}
+.feedbackbox1 { 
+  width: 71.9737vw;
+  height: 19.7368vw;
+  overflow: scroll; 
+}
+
+.screen-box1{
+  margin-top: 3.2895vw;
+  width: 78.9474vw;
+  display: flex;
+}
+.scn-box1{
+  width: 15.7895vw;
+  height: 15.7895vw;
+  margin-right: 2.9605vw;
+  float: left;
+
+  cursor:pointer; 
+}
+
+.screen-title4{
+  font-size: 1.1842vw;
+  margin-top: 3.2895vw;
+  text-decoration: overline #6EDBD9;
+}
+
+.scn-box1 {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+}
+.scn-box1:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.scn-image1{
+  box-shadow: 0.1316vw 0.1316vw 0.3947vw  rgb(77, 77, 77);
+  width: 15.7895vw;
+  height: 15.7895vw;
+  object-fit: cover;
+}
+.scn-image2{
+  box-shadow: 0.1316vw 0.1316vw 0.3947vw  rgb(77, 77, 77);
+  width: 15.7895vw;
+  height: 15.7895vw;
+  object-fit: cover;
+}
+
+.screen-box2{
+  display: flex;
+  width: 78.9474vw;
+}
+
+
+.screen-box2{
+  
+  display: flex;
+  width: 78.9474vw;
+}
+.scn-box2{
+  width: 15.7895vw;
+  height: 15.7895vw;
+
+  float: left;
+  margin-right: 2.9605vw;
+  cursor:pointer; 
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.screen-title3{
+  font-size: 1.1842vw;
+  margin-top: 3.2895vw;
+  text-decoration: overline #6EDBD9;
+}
+
+.scn-box2:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.img {width:325px; height:280px; overflow:hidden }  
+
+
+
+.js-toDobox{
+  margin-top: 1.9737vw;
+  width: 70.3947vw;
+  height: 1.9737vw;
+  font-size: 0.9868vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 0.1974vw;
+  border: 0.0658vw solid gray;
+}
+.js-toDoList{
+  margin-top: 0.6579vw;
+  line-height: 2.6316vw;
+  font-family: 'S-CoreDream-3Light';
+  font-size: 0.8553vw;
+}
+
+.feedback-sub{
+  display: flex;
+}
+
+.sub1{
+  position:relative;
+  margin-left: 13.1579vw;
+  font-size: 1.1842vw;
+  margin-top:5.9211vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: normal;
+  color: rgb(66, 66, 66);
+}
+.sub2{
+  margin-right: 4.8684vw;
+  margin-top:5.9211vw;
+  font-size: 1.7105vw;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+.btn-delete{
+  margin-top: 5.9211vw;
+  font-size: 0.9868vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: rgb(133, 132, 132);
+  font-weight: lighter;
+}
+.toDobox{
+  overflow:scroll;
+ 
+  height: 19.7368vw;
+  width: 71.9737vw;
+}
+.feedback2-title3{
+  text-decoration: underline overline red;
+  margin-top: 2.6316vw;
+  font-size: 1.1184vw;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.fedbox{
+  margin-top: 3.9474vw;  
+  margin-top: 3.9474vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: normal;
+}
+.refl-feedbackbox{
+  margin-top: 3.9474vw;
+  display: flex;
+}
+.before{
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-right: 6.8421vw;
+  width: 30.9211vw;
+  height: 30.9211vw;
+  margin-bottom: 6.5789vw;
+}
+.after{
+  text-align: center;
+  font-size: 1.1184vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 30.9211vw;
+  height: 30.9211vw;
+  margin-bottom: 6.5789vw;
+}
+.before-image{
+  box-shadow: 0.1316vw 0.1316vw 0.5263vw  rgb(134, 134, 134);
+  object-fit: contain;
+  margin-top: 0.6579vw;
+
+  width: 470px;
+  height: 450px;
+}
+.after-image{
+  box-shadow: 0.1316vw 0.1316vw 0.5263vw  rgb(134, 134, 134);
+  object-fit: contain;
+  margin-top: 0.6579vw;
+
+  width: 470px;
+  height: 450px;
+}
+.svg10{
+  transform: translateX(-3.2895vw);
+  margin-top: 16.4474vw;
+}
