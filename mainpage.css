@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+body, ul, li, h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+	
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+body {
+  color: white;
+}
+
+.header, .footer {
+  color:black;
+  font-size:5rem;
+  padding:5rem;
+}
+
+/* 기본 페이지 속성  */
+.page2 {
+  background: #fff5fd;
+  background: #fff5fd(158, 58%, 52%);
+}
+
+.page3 {
+  background: #ff96ad;
+  background: #ff96ad(28, 100%, 52%);
+}
+
+.page4 {
+  background: #A49DF5;
+  background: #A49DF5(350, 92%, 59%);
+
+}
+
+.page5 {
+  background: #005a8d;
+  background: #005a8d(200, 60%, 55%);
+}
+
+.page6 {
+  background: #022e57;
+  background: #022e57(200, 60%, 55%);
+}
+
+
+.page1 {
+  background: #000000;
+  background: #000000(200, 60%, 55%);
+}
+
+.page7 {
+  background: #000000;
+  background: #000000(200, 60%, 55%);
+}
+.piece5{
+  color:white;
+  text-align: center;
+}
+
+
+.pagination {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.pagination a {
+  display: block;
+  height: 20px;
+  margin-bottom: 5px;
+  color: white;
+  position: relative;
+  padding: 4px;
+}
+
+.pagination a.active:after {
+  box-shadow: inset 0 0 0 5px;
+}
+
+.pagination a .hover-text {
+  position: absolute;
+  right: 15px;
+  top: 7px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  padding-right: 15px;
+}
+
+.pagination a:hover .hover-text {
+  opacity: 1;
+}
+
+.pagination a:after {
+  -webkit-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+  width: 10px;
+  height: 10px;
+  display: block;
+  border: 1px solid;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 4px;
+  bottom: 0;
+}
+
+/* 페이지1속성 */
+
+.minbox{
+  position: absolute;
+  width: 20px;
+  height:753px;
+  background-color: white;
+}
+.title{
+  position: absolute;
+  margin-left: 6.4935vw;
+  margin-top: 9.0909vw;
+  float: left;
+}
+.a{
+  font-family: 'Coda Caption', sans-serif;
+  position: relative;
+  font-size: 5.5556vw;
+  font-weight: bold;
+}
+.aa{
+  font-family: 'Coda Caption', sans-serif;
+  position: relative;;
+  font-size: 5.5556vw;
+  font-weight: bold;
+}
+
+/* 눈내리는 반응 */
+.hero{
+  width: 800px;
+  height: 700px;
+}
+.snow {
+	position: absolute;
+	min-width: 100vw;
+	min-height: 100vh;
+
+}
+#snow-top-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 22.5s infinite linear;
+}
+#snow-bottom-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 45s infinite linear;
+}
+@keyframes fall {
+	
+	100% {
+		transform: translateY(0);
+  }
+}
+
+/* 이미지애니메이션 */ 
+
+.backimage{
+  float: right;
+}
+.backimage2{
+  position:absolute;
+  margin-left: 1.2987vw;
+  float: left;
+}
+
+.backimage {animation: motion 1s linear 0s infinite alternate; margin-top: 0px;}
+        
+@keyframes motion {
+	0% {margin-top: 0vw;}
+	100% {margin-top: 0.4545vw;}
+}
+
+
+.backimage2 {animation: motion2 1s linear 0s infinite alternate; margin-top: 0px;}
+        
+@keyframes motion2 {
+	0% {margin-top: 27vw;}
+	100% {margin-top:27.5vw;}
+}
+
+/* 마우스애니메이션 */
+
+.mouse {
+	max-width:2.5em;
+	width: 100%;
+	height: auto;
+}
+
+.scroll {
+	animation-name: scroll;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+	animation-iteration-count: infinite;
+	transform-origin: 50% 20.5px;
+	will-change: transform, opacity;
+	opacity: 1;
+}
+
+.scroll-link {
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@keyframes scroll {
+
+	0%, 20% {
+		transform: translateY(0) scaleY(1);
+	}
+
+	100% {
+		transform: translateY(36px) scaleY(2);
+		opacity: 0;
+	}
+
+}
+
+.logo{
+  float: left;
+  position: fixed;
+  margin-top: 1.9481vw;
+  margin-left: 6.4935vw;
+  color: white;
+  font-size: 1.0417vw;
+  font-weight: bold;
+}
+
+.about{
+  position: fixed;
+  margin-left: 90.2778vw;
+  margin-top: 1.9481vw;
+  color:white;
+  font-size: 1.0417vw;
+  font-weight: bold;
+}
+
+/* page2 css */
+
+.minbox2{
+  position: absolute;
+  width: 20px;
+  height:753px;
+  background-color: #3EA5FA;
+}
+.title-container2{
+  position: absolute;
+  margin-left: 6.4935vw;
+  margin-top: 9.0909vw;
+}
+.title2{
+  font-family: 'Racing Sans One', cursive;
+  font-size: 5.5556vw;
+  font-weight: bold;
+  color:#3EA5FA ;
+}
+.subtitle2{
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 2.5974vw;
+  line-height: 1.9481vw;
+  font-weight: normal;
+  color:black;
+  font-size: 1.1806vw;
+}
+.detail2{
+  margin-top: 3.8961vw;
+  display: flex;
+  font-size: 1.1806vw;
+  font-weight: bold;
+  color:black ;
+}
+.svg2{
+  margin-left: 0.6494vw;
+}
+.piece2-box{
+  position:absolute;
+  box-shadow: 5px 5px 20px  grey;
+  margin-left:51.3889vw;
+  margin-top: 9.7222vw;
+  width: 41.6667vw;
+  animation: motion3 1s linear 0s infinite alternate; 
+  margin-top: 0px;
+}
+        
+@keyframes motion3 {
+	0% {margin-top: 8.7662vw;}
+	100% {margin-top: 9.0909vw;}
+}
+
+.title2-box{
+  margin-top: 6.4935vw;
+  width: 250px;
+  height: 150px;
+  border: 5px solid #3EA5FA;
+}
+
+
+/* 페이지3  */
+
+.minbox3{
+  position: absolute;
+  width: 20px;
+  height:753px;
+  background-color: white;
+}
+
+.title3{
+  font-family: 'Racing Sans One', cursive;
+  position: absolute;
+  margin-left: 6.4935vw;
+  margin-top: 9.0909vw;
+  font-size: 5.5556vw;
+  font-weight: bold;
+  color:white ;
+}
+
+.detail3{
+  font-family: 'Noto Sans KR', sans-serif;
+  position:absolute;
+  margin-top: 21.4286vw;
+  margin-left: 6.4935vw;
+  font-weight: normal;
+  color:black;
+  font-size: 1.1806vw;
+}
+.subdetail3{
+  float: left;
+  margin-top: 27.9221vw;
+  margin-left: 6.4935vw;
+  font-weight: bold;
+  color:black;
+  font-size: 1.1806vw;
+}
+.svg3{
+  position:absolute;
+  margin-left: 0.6494vw;
+  margin-top: 27.9221vw;
+}
+.title3-box{
+  position:absolute;
+  margin-left:6.5789vw;
+  margin-top: 34.2105vw;
+  width: 250px;
+  height: 150px;
+  border: 5px solid white;
+}
+.piece3-box{
+  position:absolute;
+  box-shadow: 5px 5px 20px  grey;
+  margin-left:51.3889vw;
+  margin-top: 9.7222vw;
+  width: 41.6667vw;
+  height: 400px;
+  animation: motion5 1s linear 0s infinite alternate; 
+  margin-top: 0px;
+}
+@keyframes motion5 {
+	0% {margin-top: 8.7662vw;}
+	100% {margin-top: 9.0909vw;}
+}
+
+
+/* 페이지 4 */
+.minbox4{
+  position: absolute;
+  width: 20px;
+  height:753px;
+  background-color: #E3F590;
+}
+.title4{
+  font-family: 'Racing Sans One', cursive;
+  position: absolute;
+  margin-left: 6.4935vw;
+  margin-top: 9.7403vw;
+  font-size: 5.5556vw;
+  font-weight: bold;
+  color:#E3F590 ;
+}
+
+.detail4{
+  font-family: 'Noto Sans KR', sans-serif;
+  position:absolute;
+  margin-top: 21.4286vw;
+  margin-left: 6.4935vw;
+  font-weight: lighter;
+  color:white;
+  font-size: 1.1806vw;
+}
+.subdetail4{
+  float: left;
+  margin-top: 27.9221vw;
+  margin-left: 6.4935vw;
+  font-weight: bold;
+  color:white;
+  font-size: 1.1806vw;
+}
+.svg4{
+  position:absolute;
+  margin-left: 0.6494vw;
+  margin-top: 27.9221vw;
+}
+.title4-box{
+  position:absolute;
+  margin-left:6.5789vw;
+  margin-top: 32.2105vw;
+  width: 220px;
+  height: 150px;
+  border: 5px solid #E3F590;
+}
+.piece4-box{
+  position:absolute;
+  box-shadow: 5px 5px 20px  grey;
+  margin-left:52.3889vw;
+  margin-top: 9.7222vw;
+  width: 39.6667vw;
+  animation: motion4 1s linear 0s infinite alternate; 
+  margin-top: 0px;
+}
+@keyframes motion4 {
+	0% {margin-top: 8.7662vw;}
+	100% {margin-top: 9.0909vw;}
+}
+
+
+/* 페이지5 */
+.minbox5{
+  position: absolute;
+  width: 20px;
+  height:753px;
+  background-color: #FFF74A;
+}
+.title5{
+  font-family: 'Racing Sans One', cursive;
+  position: absolute;
+  margin-left: 6.4935vw;
+  margin-top: 9.0909vw;
+  font-size: 5.5556vw;
+  font-weight: bold;
+  color:#FFF74A ;
+}
+a#MOVE_TOP_BTN {
+  position: fixed;
+  right: 2%;
+  bottom: 50px;
+  z-index: 999;
+}
+
+.detail5{
+  font-family: 'Noto Sans KR', sans-serif;
+  position:absolute;
+  margin-top: 21.4286vw;
+  margin-left: 6.4935vw;
+  font-weight: lighter;
+  color:white;
+  font-size: 1.1806vw;
+}
+.subdetail5{
+  float: left;
+  margin-top: 27.9221vw;
+  margin-left: 6.4935vw;
+  font-weight: bold;
+  color:white;
+  font-size: 1.1806vw;
+}
+.svg5{
+  position:absolute;
+  margin-left: 0.6494vw;
+  margin-top: 27.9221vw;
+}
+.title5-box{
+  position:absolute;
+  margin-left:6.5789vw;
+  margin-top: 34.2105vw;
+  width: 250px;
+  height: 150px;
+  border: 5px solid #FFF74A;
+}
+.piece5-box{
+  position:absolute;
+  box-shadow: 5px 5px 20px  grey;
+  margin-left:51.3889vw;
+  margin-top: 9.7222vw;
+  width: 41.6667vw;
+  animation: motion5 1s linear 0s infinite alternate; 
+  margin-top: 0px;
+}
+@keyframes motion5 {
+	0% {margin-top: 8.7662vw;}
+	100% {margin-top: 9.0909vw;}
+}
+
+/* 페이지 6 */
+.minbox6{
+  position: absolute;
+  width: 20px;
+  height:753px;
+  background-color: #6EDBD9;
+}
+.title6{
+  font-family: 'Racing Sans One', cursive;
+  position: absolute;
+  margin-left: 6.4935vw;
+  margin-top: 9.0909vw;
+  font-size: 5.5556vw;
+  font-weight: bold;
+  color:#6EDBD9 ;
+}
+.title6-image{
+  height: 150px;
+}
+.detail6{
+  
+  position:absolute;
+  margin-top: 21.4286vw;
+  margin-left: 6.4935vw;
+  font-weight: lighter;
+  color:white;
+  font-size: 1.1806vw;
+}
+.title5-image{
+  height: 150px;
+}
+.subdetail6{
+  font-family: 'Noto Sans KR', sans-serif;
+  float: left;
+  margin-top: 27.9221vw;
+  margin-left: 6.4935vw;
+  font-weight: bold;
+  color:white;
+  font-size: 1.1806vw;
+}
+.svg6{
+  position:absolute;
+  margin-left: 0.6494vw;
+  margin-top: 27.9221vw;
+}
+.title6-box{
+  position:absolute;
+  margin-left:6.5789vw;
+  margin-top: 34.2105vw;
+  width: 250px;
+  height: 150px;
+  border: 5px solid #6EDBD9;
+}
+.piece6-box{
+  position:absolute;
+  box-shadow: 5px 5px 20px  grey;
+  margin-left:51.3889vw;
+  margin-top: 9.7222vw;
+  width: 41.6667vw;
+  animation: motion6 1s linear 0s infinite alternate; 
+  margin-top: 0px;
+}
+@keyframes motion6 {
+	0% {margin-top: 8.7662vw;}
+	100% {margin-top: 9.0909vw;}
+}
+
+/* 페이지 7 */
+.minbox7{
+  position: absolute;
+  width: 20px;
+  height:753px;
+  background-color: white;
+}
+.title7{
+  font-family: 'Racing Sans One', cursive;
+  position: absolute;
+  margin-left: 6.4935vw;
+  margin-top: 9.0909vw;
+  font-size: 5.5556vw;
+  font-weight: bold;
+  color:white;
+}
+.intro{
+  font-family: 'Noto Sans KR', sans-serif;
+  position:absolute;
+  width: 400px;
+  height: 500px;
+  margin-top: 19.7368vw;
+  margin-left: 6.5789vw;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.photoMe{
+  position:absolute;
+  box-shadow: 5px 5px 20px  grey;
+  margin-left:51.3889vw;
+  margin-top: 7.7222vw;
+  width: 41.6667vw;
+}
+.photoMe-image{
+  height: 600px;
+}
+
+
